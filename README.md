@@ -4,5 +4,6 @@
 2. Trivial system test
 3. Add 2s delay to page JS ..
 4. Test that system tests see same database state as system
+5. Don't forget to mention Eileen
 
 [1]: http://weblog.rubyonrails.org/2017/2/23/Rails-5-1-beta1/
