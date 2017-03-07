@@ -1,0 +1,9 @@
+<h1>New Banana</h1>
+<%= form_for(@banana) do |form| %>
+  <label>
+    Grams
+    <%= form.number_field :grams %>
+  </label>
+  <br />
+  <%= form.submit %>
+<% end %>
