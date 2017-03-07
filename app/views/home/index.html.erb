@@ -12,16 +12,21 @@
 =
 <label>
   C
-  <input id="c" type="number" />
+  <span id="c"></span>
 </label>
 <button id="calc" onClick="calculate();">Calculate</button>
 
 <script>
   var calculate = function() {
-    var a = document.getElementById('a');
-    var b = document.getElementById('b');
-    var c = document.getElementById('c');
-    c.value = parseInt(a.value, 10) + parseInt(b.value, 10);
+    setTimeout(
+      function() {
+        var a = document.getElementById('a');
+        var b = document.getElementById('b');
+        var c = document.getElementById('c');
+        c.innerHTML = (parseInt(a.value, 10) + parseInt(b.value, 10)).toString();
+      },
+      2000
+    );
     return false;
   }
 </script>

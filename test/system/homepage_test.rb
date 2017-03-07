@@ -7,9 +7,9 @@ class HomepageTest < ApplicationSystemTestCase
     fill_in 'a', with: 2
     fill_in 'b', with: 2
     click_on 'Calculate'
-    assert_equal '4', find_field('c').value
+    assert_selector '#c', text: '4'
     fill_in 'b', with: 3
     click_on 'Calculate'
-    assert_equal '5', find_field('c').value
+    assert_selector '#c', text: '5'
   end
 end
