@@ -1,24 +1,8 @@
-# README
+# Overview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. [rails 5.1.0.beta1 release announcement][1]
+2. Trivial system test
+3. Add 2s delay to page JS ..
+4. Test that system tests see same database state as system
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[1]: http://weblog.rubyonrails.org/2017/2/23/Rails-5-1-beta1/
